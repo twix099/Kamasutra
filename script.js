@@ -476,23 +476,33 @@ const cards = [
 	// Dodaj więcej kart w tym formacie, jeśli chcesz
 ]
 
+let availableCards = [...cards]; // Kopia dostępnych kart, z których losujemy
+
 document.getElementById('drawButton').addEventListener('click', function () {
-	// Losowanie indeksu karty
-	const randomIndex = Math.floor(Math.random() * cards.length)
-	const selectedCard = cards[randomIndex]
+    if (availableCards.length === 0) {
+        alert('Brak dostępnych kart. Zresetuj, aby dodać je z powrotem.');
+        return;
+    }
 
-	// Podział opisu na pierwsze zdanie i resztę
-	const descriptionParts = selectedCard.description.split('. ')
-	const firstSentence = descriptionParts[0] + '.'
-	const remainingText = descriptionParts.slice(1).join('. ')
+    // Losowanie indeksu karty
+    const randomIndex = Math.floor(Math.random() * availableCards.length);
+    const selectedCard = availableCards.splice(randomIndex, 1)[0]; // Usunięcie karty z puli
 
-	// Aktualizacja zawartości karty
-	document.getElementById('cardTitle').textContent = selectedCard.title
-	document.getElementById('cardImage').src = selectedCard.image
-	document.getElementById('cardImage').alt = selectedCard.title // Aktualizacja atrybutu alt
+    // Podział opisu na pierwsze zdanie i resztę
+    const descriptionParts = selectedCard.description.split('. ');
+    const firstSentence = descriptionParts[0] + '.';
+    const remainingText = descriptionParts.slice(1).join('. ');
 
-	// Wstawienie pierwszego zdania w kursywie, a reszty tekstu normalnie
-	document.getElementById(
-		'cardDescription'
-	).innerHTML = `<span id="highlightedText">${firstSentence}</span> ${remainingText}`
-})
+    // Aktualizacja zawartości karty
+    document.getElementById('cardTitle').textContent = selectedCard.title;
+    document.getElementById('cardImage').src = selectedCard.image;
+    document.getElementById('cardImage').alt = selectedCard.title; // Aktualizacja atrybutu alt
+
+    // Wstawienie pierwszego zdania w kursywie, a reszty tekstu normalnie
+    document.getElementById('cardDescription').innerHTML = `<span id="highlightedText">${firstSentence}</span> ${remainingText}`;
+});
+
+document.getElementById('resetButton').addEventListener('click', function () {
+    availableCards = [...cards]; // Przywrócenie kart do puli
+    alert('Karty zostały zresetowane!');
+});
