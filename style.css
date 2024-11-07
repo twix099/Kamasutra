@@ -18,7 +18,9 @@ body {
 	max-width: 400px;
 	padding: 20px;
 	text-align: center;
+	margin: 10px; /* Dodanie marginesu, aby karta miała miejsce wokół siebie */
 }
+
 /*span dla pierwszego zdania*/
 #highlightedText {
 	font-family: 'Roboto', sans-serif;
@@ -52,7 +54,8 @@ body {
 	color: #666;
 }
 
-#drawButton {
+#drawButton,
+#resetButton {
 	background-color: #42275a; /* Kolor tła */
 	color: white; /* Kolor tekstu */
 	border: none; /* Bez ramki */
@@ -61,16 +64,31 @@ body {
 	cursor: pointer; /* Zmiana kursora */
 	font-size: 16px; /* Rozmiar czcionki */
 	transition: background-color 0.3s; /* Animacja koloru tła */
+	margin: 0 5px; /* Margines między przyciskami */
 }
 
-#drawButton:hover {
+#drawButton:hover,
+#resetButton:hover {
 	background-color: #734b6d; /* Zmiana koloru tła po najechaniu */
+}
+
+/* Kontener przycisków */
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px; /* Odstęp między przyciskami */
+	margin-top: 20px;
 }
 
 /* Media queries dla responsywności */
 
 /* Dla ekranów o szerokości poniżej 768px (tablety i mniejsze) */
 @media (max-width: 768px) {
+	body {
+		flex-direction: column; /* Ustawienie elementów w kolumnie */
+		padding: 10px; /* Dodanie paddingu, aby elementy nie przylegały do krawędzi ekranu */
+	}
+
 	.card {
 		max-width: 90%;
 		padding: 15px;
@@ -81,7 +99,14 @@ body {
 	}
 
 	.card p {
-		font-size: 13px;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+
+	#drawButton,
+	#resetButton {
+		font-size: 14px;
+		padding: 8px 16px; /* Zmniejszenie paddingu */
 	}
 }
 
@@ -94,9 +119,21 @@ body {
 
 	.card h2 {
 		font-size: 16px;
+		margin-bottom: 10px; /* Zmniejszenie marginesu */
 	}
 
 	.card p {
 		font-size: 12px;
+		line-height: 1.4;
+	}
+
+	#drawButton,
+	#resetButton {
+		font-size: 12px;
+		padding: 6px 12px; /* Jeszcze mniejsze odstępy na małych ekranach */
+	}
+
+	.button-container {
+		gap: 15px; /* Mniejszy odstęp między przyciskami na małych ekranach */
 	}
 }
