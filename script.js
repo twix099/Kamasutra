@@ -51,7 +51,7 @@ const cards = [
 		title: 'Position 34. Cancer',
 		image: 'images/34. Cancer.PNG',
 		description:
-			'Jeśli lubisz bliskość i intymność podczas seksu, ta pozycja może być dla Ciebie. Pozwala na stały kontakt wzrokowy i pocałunki, które wzbogacają doświadczenie. Kobieta leży na boku, jedna noga jest wyprostowana, a druga zgięta w kolanie. Jej ramię jest zgięte w łokciu, aby zapewnić wsparcie. Mężczyzna znajduje się pomiędzy nogami partnerki, z jedną nogą obok jej wyprostowanej nogi, a drugą na jej zgiętym kolanie, wykonując penetrację od tyłu. Podpiera się rękami, z jedną blisko pleców kobiety, a drugą na jej piersiach, co pozwala na większą bliskość i komfort.',
+			'Jeśli lubisz bliskość i intymność podczas seksu, ta pozycja może być dla Ciebie! Pozwala na stały kontakt wzrokowy i pocałunki, które wzbogacają doświadczenie. Kobieta leży na boku, jedna noga jest wyprostowana, a druga zgięta w kolanie. Jej ramię jest zgięte w łokciu, aby zapewnić wsparcie. Mężczyzna znajduje się pomiędzy nogami partnerki, z jedną nogą obok jej wyprostowanej nogi, a drugą na jej zgiętym kolanie, wykonując penetrację od tyłu. Podpiera się rękami, z jedną blisko pleców kobiety, a drugą na jej piersiach, co pozwala na większą bliskość i komfort.',
 	},
 	{
 		title: 'Position 36. Idyll',
@@ -123,7 +123,7 @@ const cards = [
 		title: 'Position 125. Alley',
 		image: 'images/125. Alley.PNG',
 		description:
-			'Podobnie jak podczas chodzenia w ciemnościach aleją róż, musisz delikatnie, metodą prób i błędów poznać ciało partnera i słuchać swoich uczuć, które cię nie oszukują. Partner leży na plecach, jego ramiona są lekko rozciągnięte na boki, a głowa uniesiona, nogi lekko zgięte w kolanach i rozstawione na szerokość ramion. Kobieta siada między nogami partnera, tak blisko jak to możliwe jego penisa, jej nogi są złączone i zgięte, kładzie je na klatce piersiowej mężczyzny, ramiona są wyprostowane, odsunięte i rozchylone, podparcie jest na dłoniach. Dla wygody partnerka odchyla głowę do tyłu i wykonuje ruchy.',
+			'Podobnie jak podczas chodzenia w ciemnościach aleją róż, musisz delikatnie, metodą prób i błędów poznać ciało partnera i słuchać swoich uczuć, które cię nie oszukują. Partner leży na plecach, jego ramiona są lekko rozciągnięte na boki, a głowa uniesiona, nogi lekko zgięte w kolanach i rozstawione na szerokość ramion. Kobieta siada między nogami partnera, tak blisko jego penisa jak to możliwe, jej nogi są złączone i zgięte, kładzie je na klatce piersiowej mężczyzny, ramiona są wyprostowane, odsunięte i rozchylone, podparcie jest na dłoniach. Dla wygody partnerka odchyla głowę do tyłu i wykonuje ruchy.',
 	},
 	{
 		title: 'Position 128. Lap Dance',
@@ -213,7 +213,7 @@ const cards = [
 		title: 'Position 264. Sleeping beauty',
 		image: 'images/264. Sleeping beauty.PNG',
 		description:
-			'W bajce, księżniczka Śpiąca Królewna obudziła się po pocałunku księcia, pozycja seksualna Śpiącej Królewny jest sposobem na pobudzenie i zwiększenie pożądania, nasilenie namiętności i podniesienie energii seksualnej. Partnerka leży na brzuchu na poduszce z pośladkami wypiętymi w kierunku penisa kochanka. Jej ramiona są zgięte w łokciach i umieszczone za głową, nogi są proste i lekko rozchylone. Mężczyzna znajduje się za kobietą. Staje na jednym kolanie i kładzie tę nogę blisko pośladków kobiety. Druga noga mężczyzny jest prosta i umieszczona między biodrami kobiety. Mężczyzna trzyma wyciągnięte ramiona na powierzchni, po obu stronach piersi kobiety, aby zrównoważyć swoje ciało.',
+			'W bajce, księżniczka Śpiąca Królewna obudziła się po pocałunku księcia, pozycja seksualna Śpiącej Królewny jest sposobem na pobudzenie i zwiększenie pożądania, nasilenie namiętności i podniesienie energii seksualnej. Partnerka leży na brzuchu na poduszce z pośladkami wypiętymi w kierunku penisa kochanka. Jej ramiona są zgięte w łokciach i umieszczone za głową, nogi są proste i lekko rozchylone. Mężczyzna znajduje się za kobietą. Staje na jednym kolanie i kładzie tę nogę blisko pośladków kobiety. Druga noga mężczyzny jest prosta i umieszczona między nogami kobiety. Mężczyzna trzyma wyciągnięte ramiona na powierzchni, po obu stronach piersi kobiety, aby zrównoważyć swoje ciało.',
 	},
 	{
 		title: 'Position 265. Spicy dish',
@@ -243,7 +243,7 @@ const cards = [
 		title: 'Position 296. Awesome idea',
 		image: 'images/296. Awesome idea.PNG',
 		description:
-			'Weź ołówek i zapisz w kalendarzu, jaką dokładnie pozycję spróbujesz dziś wieczorem, jutro lub później w tygodniu, jest tak wiele do wyboru. Mężczyzna siada na skraju kanapy, zgina nogę w kolanie i kładzie ją na sofie. Jego prosta noga leży na podłodze. Zakłada rękę za plecy, ponieważ jest to główne podparcie i lekko odchyla ciało do tyłu. Kobieta kładzie się na kanapie, trzymając się łokci. Zarzuca nogę na ramię kochanka, zgina drugą nogę w kolanie i kładzie ją na jego udzie.',
+			'Weź ołówek i zapisz w kalendarzu, jaką dokładnie pozycję spróbujesz dziś wieczorem, jutro lub później w tygodniu, jest tak wiele do wyboru. Mężczyzna siada na skraju kanapy, zgina nogę w kolanie i kładzie ją na sofie. Jego prosta noga leży na podłodze. Zakłada rękę za plecy, ponieważ jest to główne podparcie i lekko odchyla ciało do tyłu. Kobieta kładzie się na kanapie, podpierając się na łokciach. Zarzuca nogę na ramię kochanka, zgina drugą nogę w kolanie i kładzie ją na jego udzie.',
 	},
 	{
 		title: 'Position 300. Pleasure Bible',
@@ -351,7 +351,7 @@ const cards = [
 		title: 'Position 452. Bermuda triangle',
 		image: 'images/452. Bermuda triangle.PNG',
 		description:
-			'Trójkąt Bermudzki to mityczna część Oceanu Atlantyckiego, ale pozycja seksualna trójkąta bermudzkiego to wymagająca, ale fantastyczna odmiana 69, która maksymalizuje przyjemność. Mężczyzna siedzi na kanapie z ciałem odchylonym do tyłu o oparcie i biodrami rozstawionymi tak szeroko, jak to możliwe. Kobieta ustawia się pośladkami do partnera. Rozchyla proste nogi i całkowicie pochyla ciało do przodu, tak aby jej usta znalazły się na poziomie jego penisa. Dziewczyna chwyta biodra mężczyzny rękoma, aby zrównoważyć swoje ciało i pieści penisa ustami i palcami.',
+			'Trójkąt Bermudzki to mityczna część Oceanu Atlantyckiego, ale pozycja seksualna trójkąta bermudzkiego to wymagająca, ale fantastyczna odmiana 69, która maksymalizuje przyjemność. Mężczyzna siedzi na kanapie z ciałem odchylonym do tyłu o oparcie i nogami rozstawionymi tak szeroko, jak to możliwe. Kobieta ustawia się pośladkami do partnera. Rozchyla proste nogi i całkowicie pochyla ciało do przodu, tak aby jej usta znalazły się na poziomie jego penisa. Dziewczyna chwyta biodra mężczyzny rękoma, aby zrównoważyć swoje ciało i pieści penisa ustami i palcami.',
 	},
 	{
 		title: 'Position 467. Rocket',
@@ -476,12 +476,23 @@ const cards = [
 	// Dodaj więcej kart w tym formacie, jeśli chcesz
 ]
 
-let availableCards = [...cards] // Kopia dostępnych kart, z których losujemy
+let availableCards = loadGameState() || [...cards] // Ładuj zapisany stan lub pełną talię
 const totalCards = cards.length // Całkowita liczba kart
 
 // Funkcja aktualizująca licznik
 function updateCounter() {
 	document.getElementById('cardCounter').textContent = `${availableCards.length}/${totalCards}`
+}
+
+// Zapisz stan gry do localStorage
+function saveGameState() {
+	localStorage.setItem('availableCards', JSON.stringify(availableCards))
+}
+
+// Załaduj stan gry z localStorage
+function loadGameState() {
+	const savedCards = localStorage.getItem('availableCards')
+	return savedCards ? JSON.parse(savedCards) : null
 }
 
 // Wywołaj updateCounter na początku, aby zainicjować licznik
@@ -511,7 +522,8 @@ document.getElementById('drawButton').addEventListener('click', function () {
 		'cardDescription'
 	).innerHTML = `<span id="highlightedText">${firstSentence}</span> ${remainingText}`
 
-	// Aktualizacja licznika
+	// Zapisz stan gry i zaktualizuj licznik
+	saveGameState()
 	updateCounter()
 })
 
@@ -520,6 +532,10 @@ document.getElementById('resetButton').addEventListener('click', function () {
 	availableCards = [...cards] // Przywrócenie kart do puli
 	alert('Karty zostały zresetowane!')
 
-	// Aktualizacja licznika
+	// Zapisz nowy stan gry i zaktualizuj licznik
+	saveGameState()
 	updateCounter()
 })
+
+// Po załadowaniu strony przywróć licznik na podstawie zapisanych danych
+window.addEventListener('load', updateCounter)
