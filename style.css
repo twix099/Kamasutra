@@ -1,0 +1,102 @@
+/* Globalny styl tła */
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to right, #42275a, #734b6d);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+/* Styl karty */
+.card {
+	background: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	max-width: 400px;
+	padding: 20px;
+	text-align: center;
+}
+/*span dla pierwszego zdania*/
+#highlightedText {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 700; /* Pogrubienie */
+	color: #42275a; /* Przyciągający uwagę kolor */
+	background-color: rgba(255, 235, 205, 0.5); /* Jasny odcień dla tła */
+	padding: 2px 4px; /* Odstępy wokół tekstu */
+	border-radius: 4px; /* Zaokrąglone rogi */
+}
+
+/* Styl nagłówka */
+.card h2 {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+/* Styl obrazka */
+.card img {
+	max-width: 100%;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+
+/* Styl opisu */
+.card p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #666;
+}
+
+#drawButton {
+	background-color: #42275a; /* Kolor tła */
+	color: white; /* Kolor tekstu */
+	border: none; /* Bez ramki */
+	border-radius: 5px; /* Zaokrąglone rogi */
+	padding: 10px 20px; /* Wewnętrzne odstępy */
+	cursor: pointer; /* Zmiana kursora */
+	font-size: 16px; /* Rozmiar czcionki */
+	transition: background-color 0.3s; /* Animacja koloru tła */
+}
+
+#drawButton:hover {
+	background-color: #734b6d; /* Zmiana koloru tła po najechaniu */
+}
+
+/* Media queries dla responsywności */
+
+/* Dla ekranów o szerokości poniżej 768px (tablety i mniejsze) */
+@media (max-width: 768px) {
+	.card {
+		max-width: 90%;
+		padding: 15px;
+	}
+
+	.card h2 {
+		font-size: 18px;
+	}
+
+	.card p {
+		font-size: 13px;
+	}
+}
+
+/* Dla ekranów o szerokości poniżej 480px (smartfony) */
+@media (max-width: 480px) {
+	.card {
+		max-width: 95%;
+		padding: 10px;
+	}
+
+	.card h2 {
+		font-size: 16px;
+	}
+
+	.card p {
+		font-size: 12px;
+	}
+}
